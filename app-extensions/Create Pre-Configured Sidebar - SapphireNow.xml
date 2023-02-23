@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-02-23 15:12:29">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<application_name>Omni-Experience Standard Feature Set</application_name>
+<application_scope>sn_oe_sfs</application_scope>
+<application_version>2.0.6</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Author: Astrid Sapphire (https://sapphirenow.dev)
+Content: A simple record producer capable of generating  ad-hoc Sidebar conversations</description>
+<inserted/>
+<name>Create Pre-Configured Sidebar - SapphireNow</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7252e1d2970d6d1000c432f6f053af0f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>c16db7339745691000c432f6f053af97</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_ac9aadee9709ed1000c432f6f053afd2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Encoded query for restricting the users that can be selected for an ad-hoc Sidebar conversation. As product is targetted at fulfillers, this should apply to your active fulfiller users by their core roles, but can be more precise as required.&#13;
+&#13;
+Examples are:&#13;
+roles=itil&#13;
+roles=itil^ORroles=task_editor^ORroles=admin&#13;
+roles=itil^ORroles=task_editor^ORroles=admin^department=221f79b7c6112284005d646b76ab978c^ORdepartment=221f3db5c6112284009f4becd3039cc9</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sn_oe_sfs.adhoc_sidebar_user_query</name><read_roles/><suffix>adhoc_sidebar_user_query</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-19 07:36:41</sys_created_on><sys_id>ac9aadee9709ed1000c432f6f053afd2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_oe_sfs.adhoc_sidebar_user_query</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>sys_properties_ac9aadee9709ed1000c432f6f053afd2</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-19 07:36:41</sys_updated_on><type>string</type><value>roles=itil^ORroles=admin</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ac9aadee9709ed1000c432f6f053afd2"/></record_update>]]></payload>
+<payload_hash>938207949</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>056db7339745691000c432f6f053af99</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>186689a82c00000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>sn_oe_sfs.adhoc_sidebar_user_query</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>e5be6d268649ed10e35ca97ab69dde1e</update_guid>
+<update_guid_history>e5be6d268649ed10e35ca97ab69dde1e:938207949</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_c114312a9749ed1000c432f6f053af5f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Open an Ad-Hoc Sidebar Conversation"&gt;4b232196970d6d1000c432f6f053afdb&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table&gt;sys_user_group&lt;/list_table&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;group&lt;/name&gt;&lt;order&gt;40&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Group(s):&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table&gt;chat_queue_entry&lt;/record_producer_table&gt;&lt;reference/&gt;&lt;reference_qual&gt;javascript: 'active=true^' + gs.getProperty('sn_oe_sfs.adhoc_sidebar_group_query','');&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 08:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;c114312a9749ed1000c432f6f053af5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Group(s):&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_c114312a9749ed1000c432f6f053af5f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 08:00:08&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;21&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c114312a9749ed1000c432f6f053af5f"/&gt;&lt;fx_price action="delete_multiple" query="id=c114312a9749ed1000c432f6f053af5f"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;c114312a9749ed1000c432f6f053af5f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 08:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;8114312a9749ed1000c432f6f053af62&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 08:00:08&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;c114312a9749ed1000c432f6f053af5f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 08:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;8114312a9749ed1000c432f6f053af61&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 08:00:08&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>134744482</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>096db7339745691000c432f6f053af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668aff85f0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>Group(s):</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4d14312a7849ed100cbd9d1a9703e763</update_guid>
+<update_guid_history>4d14312a7849ed100cbd9d1a9703e763:134744482</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_a3453d269789ed1000c432f6f053afb8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Open an Ad-Hoc Sidebar Conversation">4b232196970d6d1000c432f6f053afdb</catalog_item><catalog_variable>IO:9dd525a69709ed1000c432f6f053afa5</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-19 08:05:37</sys_created_on><sys_id>a3453d269789ed1000c432f6f053afb8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>user</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>catalog_ui_policy_action_a3453d269789ed1000c432f6f053afb8</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-19 08:05:37</sys_updated_on><table/><ui_policy display_value="Mandate selecting  a user or group">1a0535269789ed1000c432f6f053af1c</ui_policy><variable>user</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-1005846688</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>0d6db7339745691000c432f6f053af97</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668b4fd6e0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>user</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>99557d260a89ed10458afb0666b34f48</update_guid>
+<update_guid_history>99557d260a89ed10458afb0666b34f48:-1005846688</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_1d2ef52697c9ed1000c432f6f053afcb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Sys_ID of the Messaging Channel (sys_cs_channel) record for 'mweb', the instance conversational channel</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sn_oe_sfs.sidebar_msg_channel</name><read_roles/><suffix>sidebar_msg_channel</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-19 08:44:07</sys_created_on><sys_id>1d2ef52697c9ed1000c432f6f053afcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_oe_sfs.sidebar_msg_channel</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>sys_properties_1d2ef52697c9ed1000c432f6f053afcb</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-19 08:44:07</sys_updated_on><type>short_string</type><value>ea0cb816732110104a905ee515f6a7b5</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=1d2ef52697c9ed1000c432f6f053afcb"/></record_update>]]></payload>
+<payload_hash>317012328</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>416db7339745691000c432f6f053af99</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668d841760000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>sn_oe_sfs.sidebar_msg_channel</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>a92ef52693c9ed1095f75dd7a49e31cd</update_guid>
+<update_guid_history>a92ef52693c9ed1095f75dd7a49e31cd:317012328</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9dd525a69709ed1000c432f6f053afa5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Open an Ad-Hoc Sidebar Conversation"&gt;4b232196970d6d1000c432f6f053afdb&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table&gt;sys_user&lt;/list_table&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;user&lt;/name&gt;&lt;order&gt;30&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;User(s):&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table&gt;chat_queue_entry&lt;/record_producer_table&gt;&lt;reference/&gt;&lt;reference_qual&gt;javascript: 'active=true^' + gs.getProperty('sn_oe_sfs.adhoc_sidebar_user_query','');&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 07:02:48&lt;/sys_created_on&gt;&lt;sys_id&gt;9dd525a69709ed1000c432f6f053afa5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;User(s):&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_9dd525a69709ed1000c432f6f053afa5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 07:39:02&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;21&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9dd525a69709ed1000c432f6f053afa5"/&gt;&lt;fx_price action="delete_multiple" query="id=9dd525a69709ed1000c432f6f053afa5"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;9dd525a69709ed1000c432f6f053afa5&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 07:02:48&lt;/sys_created_on&gt;&lt;sys_id&gt;01f6ade69709ed1000c432f6f053afa4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 07:02:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;9dd525a69709ed1000c432f6f053afa5&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 07:02:48&lt;/sys_created_on&gt;&lt;sys_id&gt;85f6ade69709ed1000c432f6f053afa3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 07:02:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>788776255</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>456db7339745691000c432f6f053af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>186689ca9ae0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>User(s):</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>804fa52a1349ed10aeb3e39a605a4cad</update_guid>
+<update_guid_history>804fa52a1349ed10aeb3e39a605a4cad:788776255,fd6a21aea009ed10427c10bb13277bdd:-682510132,55f6ade60709ed10f74442f0e8019ea7:-1337614632</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_action_3d3579269789ed1000c432f6f053afdf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Open an Ad-Hoc Sidebar Conversation">4b232196970d6d1000c432f6f053afdb</catalog_item><catalog_variable>IO:c114312a9749ed1000c432f6f053af5f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-19 08:05:20</sys_created_on><sys_id>3d3579269789ed1000c432f6f053afdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>group</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>catalog_ui_policy_action_3d3579269789ed1000c432f6f053afdf</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-19 08:05:20</sys_updated_on><table/><ui_policy display_value="Mandate selecting  a user or group">1a0535269789ed1000c432f6f053af1c</ui_policy><variable>group</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+<payload_hash>-221458061</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>496db7339745691000c432f6f053af97</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668b4bbdf0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>group</target_name>
+<type>Catalog UI Policy Action</type>
+<update_domain>global</update_domain>
+<update_guid>d945b126d989ed10eb65c89e970b88b7</update_guid>
+<update_guid_history>d945b126d989ed10eb65c89e970b88b7:-221458061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_4ea5e5a69709ed1000c432f6f053af22</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Open an Ad-Hoc Sidebar Conversation"&gt;4b232196970d6d1000c432f6f053afdb&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;true&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;2across&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;start&lt;/name&gt;&lt;order&gt;25&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Please select users and/or groups to add to your Sidebar Conversation&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table&gt;chat_queue_entry&lt;/record_producer_table&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 06:57:37&lt;/sys_created_on&gt;&lt;sys_id&gt;4ea5e5a69709ed1000c432f6f053af22&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Please select users and/or groups to add to your Sidebar Conversation&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_4ea5e5a69709ed1000c432f6f053af22&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 08:02:25&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;19&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4ea5e5a69709ed1000c432f6f053af22"/&gt;&lt;fx_price action="delete_multiple" query="id=4ea5e5a69709ed1000c432f6f053af22"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;4ea5e5a69709ed1000c432f6f053af22&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 06:57:37&lt;/sys_created_on&gt;&lt;sys_id&gt;11c5256a97c5ed1000c432f6f053af46&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 06:57:37&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;4ea5e5a69709ed1000c432f6f053af22&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 06:57:37&lt;/sys_created_on&gt;&lt;sys_id&gt;95c5256a97c5ed1000c432f6f053af45&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 06:57:37&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2016058615</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>816db7339745691000c432f6f053af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668b20fba0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>Please select users and/or groups to add to your Sidebar Conversation</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>ae9475e2d289ed10b81422dc47ad6653</update_guid>
+<update_guid_history>ae9475e2d289ed10b81422dc47ad6653:-2016058615,5e74fda21889ed10eda28ebda46649d9:-1348990174,5c3ae9aef509ed10c84c53585f962f1e:-1499149854,30d56da62e09ed104f1789a6e8212acc:-452910526,21c5256a69c5ed107b71de6e1c8c3e49:1465928971</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>catalog_ui_policy_1a0535269789ed1000c432f6f053af1c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:c114312a9749ed1000c432f6f053af5fISEMPTY^IO:9dd525a69709ed1000c432f6f053afa5ISEMPTY^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Open an Ad-Hoc Sidebar Conversation"&gt;4b232196970d6d1000c432f6f053afdb&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Mandate selecting  a user or group&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 08:04:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1a0535269789ed1000c432f6f053af1c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mandate selecting  a user or group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_1a0535269789ed1000c432f6f053af1c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 08:06:31&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1844656070</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>856db7339745691000c432f6f053af97</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668b5d3120000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>Mandate selecting  a user or group</target_name>
+<type>Catalog UI Policy</type>
+<update_domain>global</update_domain>
+<update_guid>628535269989ed100f7870b840e87a77</update_guid>
+<update_guid_history>628535269989ed100f7870b840e87a77:-1844656070,5b253926f289ed102ffb2b26cf62bd61:1297761821</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_b688bdaa9789ed1000c432f6f053af85</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_oe_sfs.AdhocCollaborationGenerationUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Utils to be used for the purpose of generating and managing Adhoc Collaboration Chats (Sidebar)&amp;#13;
+&amp;#13;
+Public Methods:&amp;#13;
+generateConversation - Generates a conversation, including adding members to this conversation&amp;#13;
+addUserToConversation - Adds a user as a member of a conversation, adding a channel profile if they did not have one&amp;#13;
+addGroupToConversation - Adds members of a group to a conversation, adding a channel profile if they did not have one&amp;#13;
+createConversation - Creates a chat record&amp;#13;
+createAssociatedRecord - Creates a record related to the chat to fulfil the requirements of the Collaboration application&amp;#13;
+createTaskCardMessage - Creates a templated Card message for the task/record associated to the Chat&lt;/description&gt;&lt;name&gt;AdhocCollaborationGenerationUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AdhocCollaborationGenerationUtil = Class.create();
+AdhocCollaborationGenerationUtil.prototype = {
+    initialize: function() {
+		this.SIDEBAR_CHANNEL = gs.getProperty('sn_oe_sfs.sidebar_msg_channel','ea0cb816732110104a905ee515f6a7b5');
+		this.RECORD_CARD_JSON = JSON.parse(gs.getProperty('sn_oe_sfs.sidebar_record_obj'));
+	},
+
+	/**
+	 * Creates a Sidebar conversation for a given task record, optionally adding users and groups
+	 * @param {GlideRecord} task - Record provided for association. Should be a task/interaction or extended, but theoretically supports further
+	 * @param {string} creator - Sys ID of user generating collab chat
+	 * @param {string} [users] - Comma-separated list of users
+	 * @param {string} [groups] - Comma-separated list of groups
+	 * @param {string} [title] - Custom title for Sidebar conversation
+	 * @returns 
+	 */
+	generateConversation: function(task, creator, users, groups, title) {
+		// Declarations
+		var arrUsers = [], arrGroups = [], arrNames = [], objChat, objAssocRec;
+
+		// Do safety checks
+		if(!gs.nil(users)){
+			arrUsers = users.split(',');
+		}
+		if(!gs.nil(groups)){
+			arrGroups = groups.split(',');
+		}
+		if(gs.nil(title)){
+			title = task.short_description;
+		}
+
+		// Create key records
+		objChat = this.createConversation(title);
+		objAssocRec = this.createAssociatedRecord({table: task.getRecordClassName(), document: task.getUniqueValue()},objChat.sys_id);
+		this.addUserToConversation(creator,objAssocRec,objChat.sys_id,true);
+		var objMessage = this.createTaskCardMessage(task,objChat.sys_id);
+
+		// Process and add users, if provided
+		if(Array.isArray(arrUsers) &amp;&amp; arrUsers.length &gt; 0){
+			if(arrUsers.length == 1 &amp;&amp; arrUsers[0].length &lt; 32){
+				// Empty array
+			} else {
+				for(var user in arrUsers){
+					var objUsrTemp = this.addUserToConversation(arrUsers[user],objAssocRec,objChat.sys_id,false);
+					arrNames.push(objUsrTemp.name);
+				}
+			}
+		}
+
+		// Process and add groups, if provided
+		if(Array.isArray(arrGroups) &amp;&amp; arrGroups.length &gt; 0){
+			if(arrGroups.length == 1 &amp;&amp; arrGroups[0].length &lt; 32){
+				// Empty array
+			} else {
+				for(var grp in arrGroups){
+					var arrGrpTemp = this.addGroupToConversation(arrGroups[grp],objAssocRec,objChat.sys_id);
+
+					if(Array.isArray(arrGrpTemp) &amp;&amp; arrGrpTemp.length &gt; 0){
+						for(var iter in arrGrpTemp){
+							arrNames.push(arrGrpTemp[iter].name);
+						}
+					}
+				}
+			}
+		}
+	},
+
+	/**
+	 * Adds the given user to the conversation
+	 * @param {string} userId - Sys ID of a sys_user record
+	 * @param {Object} objAssocRec - Object containing key associated record data
+	 * @param {string} conversationId - Sys ID of the generated conversation
+	 * @param {boolean} isCreator - True if you want this user to be listed as creator, else false
+	 * @returns {Object} Object containing conversation member Sys ID and display name of the user
+	 */
+	addUserToConversation: function(userId, objAssocRec, conversationId, isCreator) {
+		var grUser = new global.GlideQuery('sys_user')
+			.get(userId, ['user_name','name'])
+			.get();
+
+		return this._addMemberToConversation(grUser, objAssocRec, conversationId, isCreator);
+	},
+
+	/**
+	 * Adds members of a group to the conversation
+	 * @param {string} groupId - Sys ID of a sys_user_group record
+	 * @param {Object} objAssocRec - Object containing details of the associated record
+	 * @param {string} conversationId - Sys ID of the generated conversation
+	 * @returns {Object[]} Array of objects containing conversation member Sys IDs and display names
+	 */
+	addGroupToConversation: function(groupId, objAssocRec, conversationId) {
+		var arrMembers = [], members = this._getGroupMembers(groupId);
+
+		for(var member in members){
+			arrMembers.push(this._addMemberToConversation(members[member].user, objAssocRec, conversationId, false));
+		}
+		
+		return arrMembers;
+	},
+
+	/**
+	 * Looks up for existing, then adds to the conversation
+	 * @param {Object} objUser - Object containing Sys ID, user_name, and Name of a sys_user record
+	 * @param {Object} objAssocRec - Object containg the table, document, and Sys ID of the Conversation Associated Record
+	 * @param {string} conversationId - Sys ID of the generated conversation
+	 * @param {boolean} isCreator - True if member should be set as Creator, else false sets Collaborator
+	 * @returns {Object} Object containing conversation member Sys ID and display name
+	 */
+	_addMemberToConversation: function(objUser, objAssocRec, conversationId, isCreator) {
+		var channelProfile = this._getChannelProfile(objUser);
+		var grChatMember = new global.GlideQuery('sys_cs_collab_member')
+			.getBy({
+				collab_chat: conversationId,
+				document: objAssocRec.document,
+				member: channelProfile.sys_id,
+				table: objAssocRec.table
+			},['sys_id'])
+			.orElse({
+				sys_id: '-1'
+			});
+		
+		if(grChatMember.sys_id == '-1'){
+			grChatMember = this._createConversationMember(objUser, objAssocRec, conversationId, isCreator);
+		}
+
+		grChatMember.name = objUser.name;
+
+		return grChatMember;
+	},
+
+	/**
+	 * Gets members of a group
+	 * @param {string} groupId - Sys ID of a sys_user_group record
+	 * @returns {Object[]} Array of objects containing group member Names, display names, and Sys IDs
+	 */
+	_getGroupMembers: function(groupId){
+		var arrGrMembers = [];
+		var grGrMembers = new global.GlideQuery('sys_user_grmember')
+			.where('group',groupId)
+			.where('user.active', true)
+			.select('user.name','user.user_name','user.sys_id')
+			.forEach(function (mem) {
+				arrGrMembers.push(mem);
+			});
+
+		return arrGrMembers;
+	},
+
+	/**
+	 * Gets or creates channel profile for a user
+	 * @param {Object} objUser - Object containing user record details
+	 * @param {string} objUser.sys_id - Sys ID of the User record
+	 * @returns {Object} Object containing channel profile Sys ID
+	 */
+	_getChannelProfile: function(objUser) {
+		var grProfile = new global.GlideQuery('sys_cs_channel_user_profile')
+			.getBy({
+				channel: this.SIDEBAR_CHANNEL,
+				active: true,
+				user_table: 'sys_user',
+				user_document: objUser.sys_id
+			},['sys_id'])
+			.orElse({
+				sys_id: '-1'
+			});
+		
+		if(grProfile.sys_id == '-1'){
+			grProfile = this._createChannelProfile(objUser);
+		}
+
+		return grProfile;
+	},
+
+	/**
+	 * Creates channel profile for a user
+	 * @param {Object} objUser - Object containing user record details
+	 * @param {string} objUser.sys_id - Sys ID of the User record
+	 * @param {string} objUser.name - Display name of the User record
+	 * @param {string} objUser.user_name - User ID of the User record
+	 * @returns {Object} Object containing channel profile Sys ID
+	 */
+	_createChannelProfile: function(objUser) {
+		var grProfile = new global.GlideQuery('sys_cs_channel_user_profile')
+			.insert({
+				channel: this.SIDEBAR_CHANNEL,
+				active: true,
+				user_table: 'sys_user',
+				user_document: objUser.sys_id,
+				channel_user_id: objUser.user_name,
+				display_name: objUser.name
+			},['sys_id'])
+			.get();
+		
+		return grProfile;
+	},
+
+	/**
+	 * Creates conversation member for a user and conversation
+	 * @param {Object} objUser - Object containing user record details
+	 * @param {Object} objAssocRec - Object containg details of the Conversation Associated Record
+	 * @param {string} objAssocRec.document - Sys ID of the record in the associated record
+	 * @param {string} objAssocRec.table - Table name of the record in the associated record
+	 * @param {string} conversationId - Sys ID of the generated conversation
+	 * @param {boolean} isCreator - True if user should be Creator, else false for Collaborator
+	 * @returns {Object} Object containing channel profile Sys ID
+	 */
+	_createConversationMember: function(objUser, objAssocRec, conversationId, isCreator) {
+		var channelProfile = this._getChannelProfile(objUser);
+		var grChatMember = new global.GlideQuery('sys_cs_collab_member')
+			.insert({
+				collab_chat: conversationId,
+				document: objAssocRec.document,
+				member: channelProfile.sys_id,
+				member_type: (isCreator ? 'creator' : 'collaborator'),
+				table: objAssocRec.table
+			},['sys_id'])
+			.get();
+
+		return grChatMember;
+	},
+
+	/**
+	 * Create root Conversation record
+	 * @param {string} title - Title of conversation
+	 * @returns {Object} Object containing conversation Sys ID
+	 */
+	createConversation: function(title) {
+		var grConversation = new global.GlideQuery('sys_cs_collab_chat')
+			.insert({
+				state: 'open',
+				title: title
+			},['sys_id'])
+			.get();
+
+		return grConversation;
+	},
+
+	/**
+	 * Create Conversation's Associated Record reference
+	 * @param {Object} objRecord - Object containing details of source record
+	 * @param {string} objRecord.table - Class name of source record
+	 * @param {string} objRecord.document - Sys ID of source record
+	 * @param {string} conversationId - Sys ID of conversation record
+	 * @returns {Object} Object containing Associated record document, table, and Sys ID
+	 */
+	createAssociatedRecord: function(objRecord, conversationId) {
+		var grAssocRec = new global.GlideQuery('sys_cs_collab_record')
+			.insert({
+				collab_chat: conversationId,
+				table: objRecord.table,
+				document: objRecord.document
+			},['document','table','sys_id'])
+			.get();
+
+		return grAssocRec;
+	},
+
+	/**
+	 * Create a message containing a CollabRecordCard for Sidebar
+	 * @param {GlideRecord} objRecord - GlideRecord of the task requiring this message
+	 * @param {string} conversationId - Sys ID of the sys_cs_collab_chat record
+	 * @returns {Object} Object containing the Sys ID and status value of the message
+	 */
+	createTaskCardMessage: function(objRecord, conversationId) {
+		var objPayload = this.RECORD_CARD_JSON;
+		objPayload.uiMetadata.data.sys_id = objRecord.getUniqueValue();
+		objPayload.uiMetadata.data.table_name = objRecord.getRecordClassName();
+		
+		var grMessageRec = new global.GlideQuery('sys_cs_collab_message')
+			.insert({
+				collab_chat: conversationId,
+				collab_chat_id: conversationId,
+				status: 'received',
+				message_type: 'rich',
+				payload: JSON.stringify(objPayload)
+			},['status','sys_id'])
+			.get();
+
+		return grMessageRec;
+	},
+
+    type: 'AdhocCollaborationGenerationUtil'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-19 08:20:10&lt;/sys_created_on&gt;&lt;sys_id&gt;b688bdaa9789ed1000c432f6f053af85&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;AdhocCollaborationGenerationUtil&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b688bdaa9789ed1000c432f6f053af85&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-22 05:02:54&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1560856020</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>896db7339745691000c432f6f053af99</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1867780c9d90000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>AdhocCollaborationGenerationUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>c6486cafd241a510c7d32d8e8a6b050f</update_guid>
+<update_guid_history>c6486cafd241a510c7d32d8e8a6b050f:-1560856020,87d6ec6f9c41a51080ca45dffcd2bdc8:-41516061,5a5779c36bc1e110db82ee56cfe6e8ea:-491243589,02e6318379c1e1101ad05e71c1a0f0d7:-515205678,92c4f58f9881e110486d211ff49456cc:-1868504896,5f64f94fa281e1105faf073f3369aad9:1736499808,3a14314f9881e110246d50204f0e1f09:103321529,44a3b1cbf481e1100a22e503f3cf93a6:421258963,7172f98b6981e1101b410b042b325471:1674655217,6412318b9481e1105cb634d3ce941005:-1479396147,53b1b90bb781e11064ba28c5b3e35e8f:-1851413583,c141fd070181e110c9148c83ffb34b29:-1188919269,8d90bd076e81e1101bd66fde4aedbcaa:-1970681813,f27aa90b7441e1103ef2ce1279ce0750:844705040,d329a90bce41e110c93d97c349a8b64a:842075849,ffb7690feb01e1103bb227a8f396edeb:1174539662,90717bba9405a110333dd6720a9b0990:534050859,b7c622e29a012110fb4b8088afdbad9c:-700430458,06b6ea6ee50121108c7f2aeccb1b8a44:-393359972,3756e6a2cd01211065c1a5c921e44187:1184540040,76765662c98ded109fe9ffc2aa3f4b07:1004299828,a4e8b1ea0389ed103ed8ea56a5d6245c:1800919509,22a875aa7189ed10a2e5378763537945:69590975</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_0a44a90f9701e11000c432f6f053af92</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Stringified JSON used to generate a Sidebar record card as used in the first message of a sidebar conversation</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sn_oe_sfs.sidebar_record_obj</name><read_roles/><suffix>sidebar_record_obj</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-20 20:09:32</sys_created_on><sys_id>0a44a90f9701e11000c432f6f053af92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_oe_sfs.sidebar_record_obj</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>sys_properties_0a44a90f9701e11000c432f6f053af92</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-20 20:09:32</sys_updated_on><type>string</type><value>{"uiType":"CollabRecordCard","uiMetadata":{"maskType":"NONE","totalOptionsCount":0,"totalSearchResultsCount":0,"paginationBreak":0,"templateName":"collabRecordCard","data":{"sys_id":"","table_name":""}}}</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=0a44a90f9701e11000c432f6f053af92"/></record_update>]]></payload>
+<payload_hash>1563203428</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>8d6db7339745691000c432f6f053af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1867072207f0000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>sn_oe_sfs.sidebar_record_obj</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>239469432f41e11000ee3339282be379</update_guid>
+<update_guid_history>239469432f41e11000ee3339282be379:1563203428</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_bbe37d629789ed1000c432f6f053af52</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Encoded query for restricting the groups can be selected for an ad-hoc Sidebar conversation. As product is targetted at fulfillers, this should apply to your active fulfiller groups by their core roles, but can be more precise as required.&#13;
+&#13;
+Examples are:&#13;
+roles=itil&#13;
+typeLIKE1cb8ab9bff500200158bffffffffff62&#13;
+roles=itil^ORroles=admin^ORtypeLIKE1cb8ab9bff500200158bffffffffff62&#13;
+roles=itil^ORroles=task_editor^ORroles=admin^department=221f79b7c6112284005d646b76ab978c^ORdepartment=221f3db5c6112284009f4becd3039cc9</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>sn_oe_sfs.adhoc_sidebar_group_query</name><read_roles/><suffix>adhoc_sidebar_group_query</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>SapphicFire</sys_created_by><sys_created_on>2023-02-19 07:59:30</sys_created_on><sys_id>bbe37d629789ed1000c432f6f053af52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_oe_sfs.adhoc_sidebar_group_query</sys_name><sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs">53b1b0e79761011018b2fa98c253afcc</sys_package><sys_policy/><sys_scope display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</sys_scope><sys_update_name>sys_properties_bbe37d629789ed1000c432f6f053af52</sys_update_name><sys_updated_by>SapphicFire</sys_updated_by><sys_updated_on>2023-02-19 07:59:30</sys_updated_on><type>string</type><value>roles=itil^ORtypeLIKE1cb8ab9bff500200158bffffffffff62</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=bbe37d629789ed1000c432f6f053af52"/></record_update>]]></payload>
+<payload_hash>-1090586140</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>c56db7339745691000c432f6f053af99</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668af65780000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>sn_oe_sfs.adhoc_sidebar_group_query</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>77e37d625789ed108d836110c4a9b154</update_guid>
+<update_guid_history>77e37d625789ed108d836110c4a9b154:-1090586140</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_producer_4b232196970d6d1000c432f6f053afdb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 12pt; font-family: helvetica;"&gt;Working in the Next Experience but need to interact with another user or group of users outside a task context? Look no further! Submit this record producer with the below details to open a Sidebar Conversation&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta&gt;sidebar,collaborate,chat,connet&lt;/meta&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Open an Ad-Hoc Sidebar Conversation&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;true&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value="Astrid Sapphire"&gt;b66637849701211000c432f6f053af13&lt;/owner&gt;&lt;picture/&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=4b232196970d6d1000c432f6f053afdb&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;catalog_home&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */
+
+// Drop into a function scope for cleanliness
+processCreation();
+
+function processCreation() {
+    // Handle Chat Queue Entry State/Action for task-level reporting and active/state mgmt purposes
+    current.setValue('action', 'accepted');
+    current.setValue('state', 3);
+	
+    // Invoke Adhoc Script Include
+	var AdhocUtil = new sn_oe_sfs.AdhocCollaborationGenerationUtil();
+	AdhocUtil.generateConversation(current,gs.getUserID(),producer.user.toString(),producer.group.toString(),current.short_description);
+}]]&gt;&lt;/script&gt;&lt;short_description&gt;Open a Sidebar Conversation&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-18 12:07:48&lt;/sys_created_on&gt;&lt;sys_id&gt;4b232196970d6d1000c432f6f053afdb&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Open an Ad-Hoc Sidebar Conversation&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_4b232196970d6d1000c432f6f053afdb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-20 21:35:52&lt;/sys_updated_on&gt;&lt;table_name&gt;chat_queue_entry&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4b232196970d6d1000c432f6f053afdb"/&gt;&lt;fx_price action="delete_multiple" query="id=4b232196970d6d1000c432f6f053afdb"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1758702357</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>c96db7339745691000c432f6f053af98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18670c128400000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table>chat_queue_entry</table>
+<target_name>Open an Ad-Hoc Sidebar Conversation</target_name>
+<type>Record Producer</type>
+<update_domain>global</update_domain>
+<update_guid>4c683187c0c1e110e575fce4ad7dca02</update_guid>
+<update_guid_history>4c683187c0c1e110e575fce4ad7dca02:1758702357,89367d4311c1e110181135309d9815dd:-1564665168,f5e57903bcc1e110b61fbb5c15c27df6:725103851,c775bdcf2781e110bdc51b5322656998:-721605674,1a3fad071481e110bbbd14c38d4b40a6:-167105182,fd78a50b1441e11042f661ab4fd33d28:1789671959,7b3869c7eb41e110ab9fe336bf22d426:-1137192881,48e6ee6ebc012110d00595194d6ed4bd:1926732099,bdb9312e9289ed109d053f933bb96402:-829544212,f208b9e61089ed10eb5ceb46e9e068a1:-1204525783,ae95e92ae0c5ed101a4424f54694d048:-850931028,2005edda480d6d100c7f0647b12887a2:1494661628,a194255a9f0d6d103e5dd94e39df3483:1554553231,cf64255aa10d6d10c598c2115747cc6b:887825243,d7232196b00d6d10c77779fe4338c7e3:43684773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_0ca425da970d6d1000c432f6f053afe6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Open an Ad-Hoc Sidebar Conversation"&gt;4b232196970d6d1000c432f6f053afdb&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text&gt;e.g. 'Help Desk BCP Collaboration'&lt;/example_text&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;true&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;short_description&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;Subject of your conversation:&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table&gt;chat_queue_entry&lt;/record_producer_table&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-18 12:15:48&lt;/sys_created_on&gt;&lt;sys_id&gt;0ca425da970d6d1000c432f6f053afe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Subject of your conversation:&lt;/sys_name&gt;&lt;sys_package display_value="Omni-Experience Standard Feature Set" source="sn_oe_sfs"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Omni-Experience Standard Feature Set"&gt;53b1b0e79761011018b2fa98c253afcc&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_0ca425da970d6d1000c432f6f053afe6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-19 07:17:01&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;6&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0ca425da970d6d1000c432f6f053afe6"/&gt;&lt;fx_price action="delete_multiple" query="id=0ca425da970d6d1000c432f6f053afe6"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;0ca425da970d6d1000c432f6f053afe6&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-18 12:15:48&lt;/sys_created_on&gt;&lt;sys_id&gt;6005edda970d6d1000c432f6f053af9a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-18 12:15:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;0ca425da970d6d1000c432f6f053afe6&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;SapphicFire&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-18 12:15:48&lt;/sys_created_on&gt;&lt;sys_id&gt;6805edda970d6d1000c432f6f053af98&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;SapphicFire&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-18 12:15:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-328416846</payload_hash>
+<remote_update_set display_value="Create Pre-Configured Sidebar - SapphireNow">c16db7339745691000c432f6f053af97</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>SapphicFire</sys_created_by>
+<sys_created_on>2023-02-23 15:12:28</sys_created_on>
+<sys_id>cd6db7339745691000c432f6f053af97</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18668887ed10000001</sys_recorded_at>
+<sys_updated_by>SapphicFire</sys_updated_by>
+<sys_updated_on>2023-02-23 15:12:28</sys_updated_on>
+<table/>
+<target_name>Subject of your conversation:</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>193aed6ef809ed1053e661b98554cae6</update_guid>
+<update_guid_history>193aed6ef809ed1053e661b98554cae6:-328416846,ee85a11ee10d6d106d2f92776a9e99f9:-1388820372,6405edda070d6d10721100ca67d7969f:1626929139</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
